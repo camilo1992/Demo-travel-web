@@ -1,0 +1,360 @@
+html {
+  font-family: "helvetica neue", "Arial" sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  height: 80px;
+  background-color: white;
+}
+
+/* margin = auto ---> it aligns to the center the content of this div */
+.header-container {
+  width: 80%;
+  margin: auto;
+}
+
+/* float ----> left, changes the layout so that it remains as a block element aligned along */
+.col-3 {
+  float: left;
+  width: 33.33%;
+  background-color: white;
+}
+
+.col-4 {
+  float: inline-start;
+  width: 31.33%;
+  background-color: white;
+}
+
+.container-second {
+  width: 100%;
+}
+
+.logo {
+  padding-top: 35px;
+}
+/* ther is a ul class= menu and the way we modify the li as folloewd
+  list-style-type: none ---> eliminates the bullet points.
+  display ---> eliminates the block behaivour and change it to in line
+  */
+.menu li {
+  list-style-type: none;
+  font-size: 0.85em;
+  display: inline;
+  color: #8e8e8e;
+  padding-right: 30px;
+}
+.menu {
+  padding-top: 16px;
+}
+
+/*  */
+.get-started-btn {
+  color: white;
+  background-color: #6dc77a;
+  text-decoration: none;
+  border-radius: 28px;
+  padding: 10px 26px;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 17px;
+  float: right;
+}
+
+.main-container {
+  border-radius: 0;
+}
+
+.top-section-container {
+  background-image: url("https://images.unsplash.com/photo-1495216875107-c6c043eb703f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  background-position: center;
+}
+
+.top-section-content {
+  width: 60%;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.top-section-content h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.top-section-content p {
+  color: black;
+  padding-bottom: 80px;
+}
+
+.signup h1 {
+  margin: 0;
+  color: black;
+  font-size: 30px;
+  padding-top: 35px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+h6 {
+  margin: 0;
+  color: black;
+  font-size: 30px;
+  padding-top: 35px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#p-text {
+  padding-bottom: 30px;
+}
+
+input {
+  padding: 10px 26px;
+  font-size: 17px;
+}
+.submit-trial-btn,
+.submit-trial-btn2 {
+  color: white;
+  background-color: #6dc77a;
+  text-decoration: none;
+  padding: 10px 26px;
+  font-size: 17px;
+}
+
+/*
+{margin: auto
+width = #%  ----> keeps our contetn cnetered and also aligns it to the center }\
+
+line-height ----> it sets the space between lines in the h3 */
+#second-section {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+/* When we select an image and apply a width 100 % it adjusts to the size of the block */
+#second-section .col-4 img {
+  padding-top: 20px;
+  width: 100%;
+}
+
+#second-section .col-4 {
+  padding-right: 10px;
+  float: left;
+}
+
+#second-section h1 {
+  text-align: center;
+}
+
+#second-section h3 {
+  margin: 0;
+  padding-top: 80px;
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5em;
+  margin-bottom: 80px;
+  letter-spacing: 1px;
+}
+
+#second-section .col-4 p {
+  color: #5d6660;
+  padding-top: 2px;
+  line-height: 24px;
+  font-family: "helvetica neue", "Arial" sans-serif;
+  font-size: 15px;
+}
+/* ------------------------------------------------------------------ */
+
+.third-sction {
+  width: 100%;
+  background-color: #f6f8fa;
+  padding-top: 100px;
+  clear: both;
+}
+
+/* overflow ---> after using applying float: left ----> since the image is too big, the entire element took up as a block
+so we need to use overflow: auto to keep the image within the div  */
+.third-section-content {
+  width: 82%;
+  margin: auto;
+  overflow: auto;
+}
+
+.col-2 {
+  float: left;
+  width: 48%;
+}
+
+.text-content {
+  padding-left: 20px;
+  padding-top: 200px;
+  font-size: 30px;
+}
+
+.text-content p {
+  margin: 2px;
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* ------------------------------------------------ */
+
+.four-section {
+  padding-top: 150px;
+  width: 100%;
+}
+
+.four-section-content {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+
+.img5 {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.col-5 {
+  float: right;
+  width: 48%;
+}
+
+.content-fourth {
+  margin: 0;
+}
+
+.content-fourth p {
+  margin: 0px;
+  font-size: 40px;
+  padding-top: 100px;
+  padding-left: 120px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* ------------------------------------------------ */
+
+.call-to-action {
+  background-image: url("https://images.unsplash.com/photo-1542349314-e669385af82f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUyfHxza3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  height: 320px;
+  background-position: center;
+  background-size: cover;
+}
+
+.action-content {
+  width: 80%;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+  color: black;
+}
+
+/* 
+adding hover to the css class allow us to style a button when hovered
+*/
+.submit-trial-btn2:hover {
+  background-color: #5cbf2a;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.quotes {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.singup-form {
+  /* text-align: center; */
+  background-color: #f6f8fa;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+
+.form {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+}
+
+.submit-trial-btn:hover {
+  background-color: #5cbf2a;
+}
+
+.singup-form input {
+  margin: 0;
+  width: 80%;
+  font-family: sans-serif;
+  font-size: 15px;
+  border: none;
+  font-weight: 100;
+}
+
+.col-2 form {
+  clear: both;
+}
+/* ------------------------------------------------------------- */
+
+/* .footer-content {
+  background-image: url(./Footerbg.png);
+  background-color: black;
+} */
+
+footer {
+  background-image: url(./Footerbg.png);
+  background-position: 50%, 50%;
+  clear: both;
+  height: 350px;
+  width: 100%;
+}
+
+.footer-content {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 190px;
+}
+
+.social-footer {
+  float: left;
+  width: 33.33%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.social-footer:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.center {
+  width: 60px;
+  margin: auto;
+  /* padding-top: 70px; */
+}
+
+.img-footer {
+  /* height: 50%; */
+  width: 50%;
+  margin: auto;
+  clear: both;
+}
+
+.center-center {
+  width: 50%;
+  /* margin: auto; */
+  margin-top: 300px;
+  clear: left;
+  /* overflow: auto; */
+}

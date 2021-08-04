@@ -1,0 +1,11 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Design traveling page",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": " parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Cristian camilo",
+  "license": "ISC"
+}
