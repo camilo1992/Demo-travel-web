@@ -4,11 +4,12 @@
   "description": "Design traveling page",
   "scripts": {
     "start": "parcel index.html",
-    "build": "npx parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Cristian camilo",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-beta.2"
   }
 }
