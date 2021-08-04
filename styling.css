@@ -9,7 +9,7 @@ body {
 
 header {
   height: 80px;
-  background-color: white;
+  background-color: #f6f8fa;
 }
 
 /* margin = auto ---> it aligns to the center the content of this div */
@@ -22,7 +22,7 @@ header {
 .col-3 {
   float: left;
   width: 33.33%;
-  background-color: white;
+  background-color: #f6f8fa;
 }
 
 .col-4 {
@@ -37,6 +37,7 @@ header {
 
 .logo {
   padding-top: 35px;
+  background-color: #f6f8fa;
 }
 /* ther is a ul class= menu and the way we modify the li as folloewd
   list-style-type: none ---> eliminates the bullet points.
@@ -48,9 +49,11 @@ header {
   display: inline;
   color: #8e8e8e;
   padding-right: 30px;
+  background-color: #f6f8fa;
 }
 .menu {
   padding-top: 16px;
+  background-color: #f6f8fa;
 }
 
 /*  */
@@ -63,7 +66,6 @@ header {
   margin-top: 20px;
   display: inline-block;
   font-size: 17px;
-  float: right;
 }
 
 .main-container {
@@ -83,6 +85,7 @@ header {
   color: white;
   margin: auto;
   text-align: center;
+  background-color: #f6f8fa;
 }
 
 .top-section-content h1 {
