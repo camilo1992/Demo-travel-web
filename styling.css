@@ -312,7 +312,7 @@ adding hover to the css class allow us to style a button when hovered
 } */
 
 footer {
-  background-image: url(./Footerbg.png);
+  background-image: url(./images/Footerbg.png);
   background-position: 50%, 50%;
   clear: both;
   height: 350px;
