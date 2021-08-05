@@ -38,6 +38,7 @@ header {
 .logo {
   padding-top: 35px;
   background-color: #f6f8fa;
+  margin-left: 30px;
 }
 /* ther is a ul class= menu and the way we modify the li as folloewd
   list-style-type: none ---> eliminates the bullet points.
@@ -64,6 +65,7 @@ header {
   border-radius: 28px;
   padding: 10px 26px;
   margin-top: 20px;
+  margin-left: 15px;
   display: inline-block;
   font-size: 17px;
 }
@@ -90,7 +92,7 @@ header {
 
 .top-section-content h1 {
   color: black;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: lighter;
 }
 
@@ -180,11 +182,13 @@ line-height ----> it sets the space between lines in the h3 */
 }
 /* ------------------------------------------------------------------ */
 
-.third-sction {
+.section,
+.section1 {
   width: 100%;
   background-color: #f6f8fa;
   padding-top: 100px;
   clear: both;
+  padding-bottom: 80px;
 }
 
 /* overflow ---> after using applying float: left ----> since the image is too big, the entire element took up as a block
@@ -214,9 +218,8 @@ so we need to use overflow: auto to keep the image within the div  */
 
 /* ------------------------------------------------ */
 
-.four-section {
-  padding-top: 150px;
-  width: 100%;
+.section1 {
+  background-color: white;
 }
 
 .four-section-content {
@@ -227,7 +230,7 @@ so we need to use overflow: auto to keep the image within the div  */
 
 .img5 {
   width: 100%;
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 .col-5 {
@@ -240,10 +243,9 @@ so we need to use overflow: auto to keep the image within the div  */
 }
 
 .content-fourth p {
-  margin: 0px;
-  font-size: 40px;
+  width: 100%;
+  font-size: 30px;
   padding-top: 100px;
-  padding-left: 120px;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -259,7 +261,7 @@ so we need to use overflow: auto to keep the image within the div  */
 .action-content {
   width: 80%;
   margin: auto;
-  padding-top: 70px;
+  padding-top: 40px;
   text-align: center;
   color: black;
 }
@@ -318,7 +320,7 @@ footer {
   background-image: url(./images/Footerbg.png);
   background-position: 50%, 50%;
   clear: both;
-  height: 350px;
+  height: 250px;
   width: 100%;
 }
 
