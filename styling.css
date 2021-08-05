@@ -196,7 +196,7 @@ so we need to use overflow: auto to keep the image within the div  */
 .third-section-content {
   width: 82%;
   margin: auto;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .col-2 {
