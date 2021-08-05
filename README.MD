@@ -19,10 +19,12 @@ style = "overflow = true"
 
 For big images
 
-Setting overflow: auto or set other values than the initial value of overflow: visible created a new BFC containing the float. Our <div> now becomes a mini-layout inside our layout. Any child element will be contained inside it
+Setting overflow: auto or set other values than the initial value of overflow: visible created a new BFC containing the float. Our div now becomes a mini-layout inside our layout.
+
+Any child element will be contained inside it
 
 Use of different hmtl elemnts, and inegration with Css classes.
-Image back-ground positionning and button and links functionality.
+Image back-ground positionning, button and links functionality.
 
 ```sh
 (.class:hover {
