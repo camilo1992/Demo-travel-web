@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./styling.css" />
+    <script  defer src="./script.js"></script>
   </head>
   <body>
     <header>
@@ -18,9 +19,15 @@
         <div class="col-3">
           <nav>
             <ul class="menu">
-              <li>Home</li>
-              <li>Features</li>
-              <li>Sign up</li>
+              <li class="menu-itme">
+                <a  class="menu-op" href="#">Home</a>
+              </li>
+              <li class="menu-itme">
+                <a class="menu-op" href="#second-section">Features</a>
+              </li>
+              <li class="menu-itme">
+                <a class="menu-op" href="#call-to-action">Sign up</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -149,7 +156,7 @@
         </div>
       </div>
       <!-- end fourth section-->
-      <div class="call-to-action">
+      <div id="call-to-action">
         <div class="action-content">
           <h1 style="font-size: 50px">What are you waiting for?</h1>
           <p>There is an opportunity everywhere ...</p>
