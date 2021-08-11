@@ -190,7 +190,7 @@ line-height ----> it sets the space between lines in the h3 */
 }
 /* ------------------------------------------------------------------ */
 
-.section,
+.section3,
 .section1 {
   width: 100%;
   background-color: #f6f8fa;
@@ -378,4 +378,9 @@ footer {
   top: 0px;
   /* position: fixed; */
   background-color: rgba(255, 255, 255, 0.95);
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
