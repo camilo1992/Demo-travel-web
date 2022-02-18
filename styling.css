@@ -27,13 +27,60 @@ header {
 }
 
 .col-4 {
-  float: inline-start;
-  width: 31.33%;
+  /* float: inline-start; */
+  /* width: 31.33%; */
   background-color: white;
 }
 
 .container-second {
+  overflow: hidden;
   width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+  grid-template-areas: "quote quote quote" "pro1 pro2 pro3" "pro4 pro5 pro6" ". pro7 .";
+}
+.container-second h3 {
+  grid-area: quote;
+}
+
+#pro1 {
+  grid-area: pro1;
+}
+
+#pro1 img:hover,
+#pro2 img:hover,
+#pro3 img:hover,
+#pro4 img:hover,
+#pro5 img:hover,
+#pro6 img:hover,
+#pro6 img:hover,
+#pro7 img:hover {
+  background-color: black;
+  opacity: 0.3;
+}
+#pro2 {
+  grid-area: pro2;
+}
+
+#pro3 {
+  grid-area: pro3;
+}
+
+#pro4 {
+  grid-area: pro4;
+  display: block;
+}
+#pro5 {
+  grid-area: pro5;
+}
+#pro6 {
+  grid-area: pro6;
+}
+
+#pro7 {
+  grid-area: pro7;
 }
 
 .logo {
@@ -83,7 +130,7 @@ header {
 }
 
 #top-section-container {
-  background-image: url("https://images.unsplash.com/photo-1495216875107-c6c043eb703f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  background-image: url("./images/tiny.jpg");
   background-size: cover;
   width: 100%;
   height: 800px;
@@ -96,6 +143,7 @@ header {
   margin: auto;
   text-align: center;
   background-color: #f6f8fa;
+  opacity: 0.8;
 }
 
 .top-section-content h1 {
@@ -163,7 +211,7 @@ line-height ----> it sets the space between lines in the h3 */
 
 #second-section .col-4 {
   padding-right: 10px;
-  float: left;
+  float: none;
 }
 
 #second-section h1 {
@@ -177,7 +225,7 @@ line-height ----> it sets the space between lines in the h3 */
   font-size: 30px;
   text-align: center;
   line-height: 1.5em;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   letter-spacing: 1px;
 }
 
@@ -481,3 +529,5 @@ footer {
   background-color: #888;
   opacity: 1;
 }
+
+/* "container-second" style="display: grid; height: 100%; grid-template-columns: 1fr 1fr 1fr */
